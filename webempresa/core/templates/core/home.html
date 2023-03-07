@@ -1,0 +1,180 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+
+<!-- Cabecera -->
+
+
+<div class="banner">
+		<div class="capa"></div>
+		<div class="info">
+			<h1>Bienvenidos a Vidrieria "PEPE" </h1>
+			<p>Tenemos una amplia experiencia en trabajos de instalación de vidrios en todos los sistemas , como prioridad es la satisfacción de nuestros clientes, por ello brindamos nuestros servicios especializados y elaboramos los productos con materiales de reconocida calidad.</p>
+ 
+       <a class="btn btn-primary btn-xl" href="{% url 'services' %}">Leer Más</a>
+		</div>
+	</div>
+
+
+
+ <div class="container marketing">
+<br>
+<br>
+   <!-- <h2 style="color:#f8f9fa";>NUSTROS PROYECTOS text</h2>-->
+<br>
+<br>
+    <!-- START THE FEATURETTES -->
+  
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+ 
+       <h2 style="color:#f8f9fa"   class="featurette-heading fw-normal lh-1">MISIÓN <h1 style="color:#f8f9fa"> </h1> </h2>
+        <p  style="color:#f8f9fa" class="lead">
+Nos exigimos para satisfacer a nuestros clientes con calidad y compromiso en los servicios de instalaciones y proyectos que nos confían. Contribuimos con la creatividad, la iniciativa y superación de nuestros trabajadores bajo los valores y principios .</p>  
+      </div>
+      <div class="col-md-5">
+      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/ventana.jpg' %}" alt="">
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        
+       <h2 style="color:#f8f9fa"   class="featurette-heading fw-normal lh-1">VISIÓN <h1 style="color:#f8f9fa"> </h1> </h2>
+        <p  style="color:#f8f9fa" class="lead">Nuestra visión es hacer de Vidrieria PEPE una empresa líder donde buscamos la satisfacción de nuestros clientes,dedicamos nuestros servicios y productos a contribuir una mejor calidad de acabado para nuestra sociedad.</p>  
+      </div>
+      <div class="col-md-5 order-md-1">
+       <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/pol.jpg' %}" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+         
+        <h2 style="color:#f8f9fa"   class="featurette-heading fw-normal lh-1">VALORES <h1 style="color:#f8f9fa"> </h1> </h2>
+        <p  style="color:#f8f9fa" class="lead">Responsabilidad , Cumplimiento de actividades , Orientación a la persona,trabajo en equipo, puntualidad</p>  
+      </div>
+      <div class="col-md-5">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/mampara5.jpg' %}" alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+ 
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+ <section class="page-section about-heading">
+  <div class="container">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvidriospepe%2Fvideos%2F271020994442418%2F&show_text=false&width=560&t=0" width="100%" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+               <!-- <span class="section-heading-upper">Empresa altamente calificada</span>-->
+              <span class="section-heading-lower">PROYECTOS</span>
+            </h2>
+            <p>A través de un equipo de profesionales, técnicas especializadas y procesos a la vanguardia,
+logramos que las personas y empresas satisfagan sus necesidades con satisfacción de forma perdurable. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section about-heading">
+  <div class="container">
+    <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fvidriospepe%2Fvideos%2F472558284178265%2F&show_text=false&width=261&t=0" width="100%" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+               <!-- <span class="section-heading-upper">Empresa altamente calificada</span>-->
+              <span class="section-heading-lower">SERVICIOS DE VIDRIERÍA</span>
+            </h2>
+            <p>Brindamos instalaciones de trabajos con vidrio a través de la asesoría para diversos tipos de proyectos.
+Somos sinónimo de compromiso y experiencia. De esta manera, hemos logrado impactar en la vida de las personas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/espejo.jpg' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-upper">Lo hacemos facil</span>
+          <span class="section-heading-lower">Estamos para apoyarte</span>
+        </h2>
+        <p class="mb-3">Trabajamos con las mejores marcas.Tenemos para ti accesorios innovadores de calidad superior para decorar tus espacios de forma única.
+        </p>
+        <div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="{% url 'store' %}">Visítanos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Mensaje -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Compromiso total</span>
+            <span class="section-heading-lower">Garantizado</span>
+          </h2>
+          <p class="mb-0">Con nuestra experiencia en el mercado garantizamos un buen acabado en el servicio. Somos una empresa que tiene como política y estrategia principal la calidad y garantía en las diversas áreas de negocio</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="page-section about-heading">
+  <div class="container">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15605.351773283997!2d-77.0714145!3d-12.0890015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a70d046c3d%3A0xfdb54d65c74a86c4!2zVklEUklFUsONQSBQRVDDiQ!5e0!3m2!1ses-419!2spe!4v1678133256898!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="about-heading-content">
+      
+    </div>
+  </div>
+</section>
+<br>
+<br>
+
+{% endblock %}
